@@ -166,6 +166,18 @@
       "metadata": {
         "description": "Name of existing Network Security Group for MGMT FW interface"
       }
+        "BootstrapUriSizeGB": {
+"type": "string",
+"metadata": {
+"description": "Size of the Bootstrap volume in GB"
+}
+},
+"BootstrapUri": {
+"type": "string",
+"metadata": {
+"description": "URI for the page blob containing the bootstrap files"
+}
+}
     }
         
   }
